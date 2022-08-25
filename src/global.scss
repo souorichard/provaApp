@@ -24,3 +24,51 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'nunito';
+}
+
+ion-toolbar {
+  padding: 0 10px;
+  --background: var(--ion-color-secondary);
+  box-shadow: 0 0 20px var(--ion-shadow);
+
+  ion-icon {
+    font-size: 2em;
+  }
+
+  ion-title {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  background-color: var(--ion-color-primary);
+
+  ion-searchbar {
+    margin-bottom: 2rem;
+    --background: var(--ion-color-secondary);
+    --border-radius: 15px;
+  }
+
+  ion-grid {
+    width: 100%;
+    height: auto;
+  }
+}
+
+ion-tab-bar {
+  --background: var(--ion-color-secondary);
+  box-shadow: 0 0 20px var(--ion-shadow);
+}
