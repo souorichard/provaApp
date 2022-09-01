@@ -1,26 +1,104 @@
 <ion-header [translucent]="true">
-
   <ion-toolbar>
-    <ion-icon slot="start" name="menu-outline"></ion-icon>
-    <ion-title slot="end">Dicas para Academia</ion-title>
+    <ion-title slot="start">Dicas para Academia</ion-title>
+    <ion-icon slot="end" name="menu-outline"></ion-icon>
   </ion-toolbar>
-
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
-  <div class="container">
-    <ion-searchbar animated></ion-searchbar>
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          ion-col
-        </ion-col>
-        <ion-col>
-          ion-col
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </div>
-
+  <ion-item>
+    <ion-label>
+      <span>Atividades Físicas</span>
+      <h1>7 Dicas para Iniciantes na Academia</h1>
+      <img
+        src="https://cmx.weightwatchers.com/assets-proxy/weight-watchers/image/upload/q_auto/v1594406683/visitor-site/prod/br/br_art_masthead_desktop_dicas-iniciantes-academia_wtub43?auto=webp"
+      />
+      <div class="content">
+        <ion-label class="ion-text-wrap">
+          <h3>
+            {{ text }}
+          </h3>
+          <ol>
+            <li>
+              <h2>Aqueça, sempre</h2>
+              <p>
+                Aqueles minutinhos iniciais servem para preparar seu corpo e
+                mente. Seja lá qual for a atividade escolhida, o melhor jeito de
+                evitar lesões é aquecer. Esse cuidado também ajuda a acelerar o
+                metabolismo, melhorar as articulações e sua coordenação motora.
+              </p>
+            </li>
+            <li>
+              <h2>Pense em seu conforto</h2>
+              <p>
+                Geralmente quando iniciamos uma nova rotina de exercícios nos
+                empolgamos para comprar novas roupas de ginástica. Mas cuidado:
+                foque não só na beleza, mas também na qualidade. Peças feitas
+                com matérias leves, como algodão e lycra, permitem a
+                transpiração. E evite tudo que é muito apertado! O tênis
+                adaptado ao seu tipo de treino e pisada também é indicado.
+              </p>
+            </li>
+            <li>
+              <h2>Leve uma garrafinha de água</h2>
+              <p>
+                A gente não cansa de repetir: hidratação é tudo! Quando você
+                sente sede, é sinal de que o seu corpo precisa de água. E,
+                durante seu treino, é certo que você vai precisar se hidratar
+                com maior frequência. A água também ajuda a desintoxicar o
+                organismo e transportar nutrientes. Tudo isso vai te dar ainda
+                mais energia.
+              </p>
+            </li>
+            <li>
+              <h2>Saiba quando comer</h2>
+              <p>
+                Uma das maiores dúvidas é: comer antes ou depois? Afinal, a
+                alimentação adequada garante energia para realizar os exercícios
+                com eficiência. Evite começar a atividade em jejum. Antes de ir
+                para a academia, é preciso estocar energia para os músculos, por
+                isso invista em carboidratos, pelo menos, meia hora antes.
+                Depois, faça refeições que contenham proteína animal e
+                carboidratos complexos, como arroz ou massa integral.
+              </p>
+            </li>
+            <li>
+              <h2>Tenha concentração e cuidado</h2>
+              <p>
+                Comece devagar e procure sempre a orientação de um profissional
+                especializado. Aumentar as cargas sem o devido preparo, pular ou
+                mudar a ordem dos exercícios são algumas atitudes que podem
+                comprometer sua saúde. Confie no seu personal ou professor da
+                academia; devagar você chega longe!
+              </p>
+            </li>
+            <li>
+              <h2>Personalize seu treino</h2>
+              <p>
+                Cada corpo reage de um jeitinho diferente. Seu organismo e sua
+                evolução dependem de um programa específico. Se aquela série de
+                exercícios está dando bons resultados para um amigo, não
+                necessariamente ela serve para você. Não caia na armadilha do
+                improviso e monte sua rotina com o profissional especializado,
+                que irá acompanhar sua evolução e fazer os ajustes necessários
+                periodicamente.
+              </p>
+            </li>
+            <li>
+              <h2>Descanse</h2>
+              <p>
+                Nós sabemos que começar algo novo pode ser empolgante. Mas não
+                exagere! O sono adequado garante uma boa recuperação e mantém
+                seu fôlego para seguir em frente. Respeite também o descanso
+                semanal indicado pelo seu professor – fuja da fadiga causada
+                pelo esforço excessivo.
+                <br /><br />
+                Bom treino!
+              </p>
+            </li>
+          </ol>
+        </ion-label>
+      </div>
+    </ion-label>
+  </ion-item>
 </ion-content>
