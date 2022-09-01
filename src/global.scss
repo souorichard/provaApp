@@ -34,7 +34,8 @@
 
 ion-toolbar {
   padding: 0 10px;
-  --background: var(--ion-color-secondary);
+  --color: var(--ion-color-light);
+  --background: var(--ion-color-primary);
   box-shadow: 0 0 20px var(--ion-shadow);
 
   ion-icon {
@@ -55,20 +56,18 @@ ion-content {
   --padding-end: 15px;
   --padding-bottom: 20px;
   --padding-start: 15px;
-
-  ion-searchbar {
-    --border-radius: 10px !important;
-  }
+  --background: var(--ion-color-secondary);
 
   ion-card {
     margin-top: 20px;
     border-radius: 10px;
+    --background: var(--ion-color-tertiary);
 
     ion-card-header {
       ion-card-title {
         font-weight: bold;
         text-transform: uppercase;
-        --color: #fff;
+        --color: #080808;
       }
     }
 
@@ -78,7 +77,7 @@ ion-content {
 
         li {
           p {
-            color: #aaa;
+            color: #111;
 
             b {
               font-size: 1rem;
@@ -91,8 +90,8 @@ ion-content {
 }
 
 ion-tab-bar {
-  --color: var(--ion-color-tertiary);
+  --color: var(--ion-color-light);
   --color-selected: var(--ion-color-secondary-contrast);
-  --background: var(--ion-color-secondary);
+  --background: var(--ion-color-primary);
   box-shadow: 0 0 20px var(--ion-shadow);
 }

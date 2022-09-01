@@ -1,12 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title slot="start">Treino</ion-title>
-    <ion-icon slot="end" name="menu-outline"></ion-icon>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-searchbar placeholder="Buscar" animated color="primary"></ion-searchbar>
+  <ion-searchbar color="tertiary" mode="ios" placeholder="Buscar" animated></ion-searchbar>
   <ion-card>
     <img
       src="https://www.feitodeiridium.com.br/wp-content/uploads/2016/08/treino-ABC-perna.jpg"
